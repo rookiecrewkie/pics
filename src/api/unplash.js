@@ -7,4 +7,4 @@ const getPhotos = async term => {
   )).json();
 };
 
-export default { getPhotos };
+export default getPhotos;
