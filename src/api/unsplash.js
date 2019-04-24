@@ -1,5 +1,5 @@
 const getPhotos = async term => {
-  return await (await fetch(
+  return (await fetch(
     `https://api.unsplash.com/search/photos?client_id=${
       process.env.REACT_APP_UNSPLASH_API_KEY
     }&query=${term}`,
